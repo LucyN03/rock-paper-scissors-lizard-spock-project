@@ -8,3 +8,149 @@ body{
     background-color: #282c34;
     color: white;
 }
+
+.game-container {
+    text-align: center;
+    background-color: #3b4048;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.score{
+    text-align: center;
+}
+
+.choices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.choice {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3;
+    width: 100%;
+}
+
+.choice:hover{
+    background-color: #21a1f1;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+#result-message {
+    font-size: 18px;
+}
+
+#reset {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reset:hover{
+    background-color: #c0392b;
+}
+
+/*Responsive Styles*/
+
+/*Mobile (up to 480px)*/
+@media (max-width: 480px) {
+    body {
+        padding: 10px
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    .choice{
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    #result-message {
+        font-size: 16px;
+    }
+
+    #reset{
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+/* Tablet (481px to 768px)*/
+@media (min-width: 481px) and (max-width: 768px) {
+    h1{
+        font-size: 22px;
+    }
+
+    .choice{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    #result-message{
+        font-size: 17px;
+    }
+
+    #reset{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+}
+
+/* Desktop (769px and up)*/
+@media (min-width: 769px) {
+    .game-container{
+        padding: 30px;
+        max-width: 500px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .choice {
+        font-size: 18px;
+        padding: 12px 15px;
+    }
+
+    #result-message{
+        font-size: 20px;
+    }
+
+    #reset{
+        font-size: 18px;
+        padding: 12px 15px;
+    }
+}
