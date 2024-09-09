@@ -42,8 +42,14 @@ function getResult(playerChoice, computerChoice){
     }
 }
 
-function updateScore(){
-
+function updateScore(result){
+    if (result === 'win'){
+        playerScore++;
+        playerScoreElem.textContent = playerScore;
+    } else if (result === 'lose') {
+        computerScore++;
+        computerScoreElem.textContent = computerScore;
+    }
 }
 
 function displayResult(){
