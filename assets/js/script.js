@@ -8,7 +8,7 @@ const rules = {
 };
 
 let playerScore = 0;
-let computer = 0;
+let computerScore = 0;
 
 const playerScoreElem = document.getElementById('player-score');
 const computerScoreElem = document.getElementById('computer-score');
@@ -25,10 +25,11 @@ document.querySelectorAll('.choice').forEach(button => {
     });
 });
 
-document.getElementById('rest').addEventListener('click', resetGame);
+document.getElementById('reset').addEventListener('click', resetGame);
 
 function getComputerChoice(){
-
+    const randomIndex = Math.floor(Math.random() * choices.length);
+    return choices[randomIndex];
 }
 
 function getResult(){
@@ -44,5 +45,5 @@ function displayResult(){
 }
 
 function resetGame(){
-    
+
 }
