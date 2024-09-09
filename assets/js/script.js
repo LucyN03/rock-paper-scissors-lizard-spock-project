@@ -32,8 +32,14 @@ function getComputerChoice(){
     return choices[randomIndex];
 }
 
-function getResult(){
-
+function getResult(playerChoice, computerChoice){
+    if (playerChoice === computerChoice) {
+        return 'draw';
+    } else if (rules[playerChoice].includes(computerChoice)){
+        return 'win'
+    } else {
+        return 'lose'
+    }
 }
 
 function updateScore(){
