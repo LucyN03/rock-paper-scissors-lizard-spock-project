@@ -24,3 +24,25 @@ document.querySelectorAll('.choice').forEach(button => {
         displayResult(result, playerChoice, computerChoice);
     });
 });
+
+document.getElementById('rest').addEventListener('click', resetGame);
+
+function getComputerChoice(){
+
+}
+
+function getResult(){
+
+}
+
+function updateScore(){
+
+}
+
+function displayResult(){
+
+}
+
+function resetGame(){
+    
+}
