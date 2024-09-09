@@ -65,5 +65,9 @@ function displayResult(result, playerChoice, computerChoice) {
 }
 
 function resetGame(){
-
+    playerScore = 0;
+    computerScore = 0;
+    playerScoreElem.textContent = playerScore;
+    computerScoreElem.textContent = computerScore;
+    resultMessageElem.textContent = 'Make your choice!'
 }
