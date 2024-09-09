@@ -52,8 +52,16 @@ function updateScore(result){
     }
 }
 
-function displayResult(){
-
+function displayResult(result, playerChoice, computerChoice){
+    let message = `You chose ${playerChoice}. Computer chose ${compuerChoice}. `;
+    if (result === 'win'){
+        message += 'You win!';
+    } else if (result === 'lose'){
+        message += 'You lose!';
+    } else{
+        message += "It's a draw!"
+    }
+    resultMessageElem.textContent = message;
 }
 
 function resetGame(){
