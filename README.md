@@ -20,7 +20,7 @@ The game has several key features aimed at providing an enjoyable user experienc
 - **Game logic Display**
     - Upon each game round, the outcome (win, lose, draw) is displayed to the user, along with the choices made by both the player and the computer. This ensures transparency and fairness in each game.
 
-    [Game Results](assets/readme-images/game_results.JPG)
+    ![Game Results](assets/readme-images/game_results.JPG)
 
 - **Score Tracking**
     - A score tracking features keeps count of the player's wins, losses, ties, making the game more competitive. Players can challenge themselves to improve their win rate against the computer.
