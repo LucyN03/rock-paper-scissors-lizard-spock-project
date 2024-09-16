@@ -20,7 +20,7 @@ document.querySelectorAll('.choice').forEach(button => {
         const computerChoice = getComputerChoice();
         const result =getResult(playerChoice, computerChoice);
 
-        updateScore(result)
+        updateScore(result);
         displayResult(result, playerChoice, computerChoice);
     });
 });
@@ -36,9 +36,9 @@ function getResult(playerChoice, computerChoice){
     if (playerChoice === computerChoice) {
         return 'draw';
     } else if (rules[playerChoice].includes(computerChoice)){
-        return 'win'
+        return 'win';
     } else {
-        return 'lose'
+        return 'lose';
     }
 }
 
@@ -69,5 +69,5 @@ function resetGame(){
     computerScore = 0;
     playerScoreElem.textContent = playerScore;
     computerScoreElem.textContent = computerScore;
-    resultMessageElem.textContent = 'Make your choice!'
+    resultMessageElem.textContent = 'Make your choice!';
 }
