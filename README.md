@@ -1,6 +1,6 @@
 # Rock Paper Scissors Lizard Spock Game
 
-The **Rock Paper Scissors Lizard Spock** game is a fun and engaging web-based application inspired by the classic game of Rock Paper and Scissors but with a twist. Adding Lizard and Spock, this game provides a more varied and strategic experience. The game is designed for players of all ages who enjoy interactive, competitive games. Whether you're looking to play against the computer, this game provides a visually appealing and responsive experience across all devices.
+The **Rock Paper Scissors Lizard Spock** game is a fun and engaging web-based application inspired by the classic game of Rock Paper and Scissors but with a twist. Adding Lizard and Spock, this game provides a more varied and strategic experience. The game is designed for players of all ages who enjoy interactive, competitive games. Where you're looking to play against the computer, this game provides a visually appealing and responsive experience across all devices.
 
 ![Responsive Mockup](assets/readme-images/mockup.JPG)
 
