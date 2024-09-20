@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Play Rock, Paper, Scissors, Lizard, Spock! A fun, interactive game where you can challenge the computer.">
+    <meta name="description"
+        content="Play Rock, Paper, Scissors, Lizard, Spock! A fun, interactive game where you can challenge the computer.">
     <meta name="keywords" content="Rock, Paper, Scissors, Lizard, Spock, game, fun, challenge, interactive">
     <meta name="author" content="Lucy Noonan">
     <title>Rock, Paper, Scissors, Lizard, Spock</title>
@@ -12,7 +14,26 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
+
 <body>
+
+    <!--Welcome section with rules-->
+    <div class="welcome-container">
+        <h1>Welcome to the Rock, Paper, Scissors, lizard, Spock Game!</h1>
+        <p>This is a fun and strategic twist on the classic "Rock , Paper, Scissors" game, adding two new elements:
+            Lizard and Spock. Test your wits against the computer!</p>
+
+        <h2>Game Rules:</h2>
+        <ul>
+            <li><strong>Rock</strong> crushes Scissors and crushes Lizard.</li>
+            <li><strong>Paper</strong> covers Rock and disproves Spock.</li>
+            <li><strong>Scissors</strong> cuts Paper and decapitates liazrd.</li>
+            <li><strong>Lizard</strong> eats Paper and poisons Spock.</li>
+            <li><strong>Spock</strong> smashes Scissors and vaporizes Rock.</li>
+        </ul>
+        <p>The goal is to choose ypur hand and outsmart the computer's choice. Can you win?</p>
+        <button onclick="startGame()">Start Game</button>
+    </div>
 
     <!--main game container-->
     <div class="game-container">
@@ -51,4 +72,5 @@
     <!--Link to external JavaScript file-->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
