@@ -47,6 +47,11 @@ document.querySelectorAll('.choice').forEach(button => {
 // Add event listener to reset button to reset the game
 document.getElementById('reset').addEventListener('click', resetGame);
 
+function startGame() {
+    document.querySelector('.welcome-container').style.display = 'none';
+    document.querySelector('.game-container').style.display = 'block';
+}
+
 /**
  * Function to get a random choice for the computer
  * Random index from choices
