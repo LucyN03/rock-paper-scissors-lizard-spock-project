@@ -10,8 +10,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 </head>
 <body>
+
+    <!--main game container-->
     <div class="game-container">
         <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+
+        <!--Scoreboard container-->
         <div class="scoreboard">
             <div class="score">
                 <h2>Player</h2>
@@ -22,6 +26,8 @@
                 <p id="computer-score">0</p>
             </div>
         </div>
+
+        <!--Game choices (buttons) for player-->
         <div class="choices">
             <button class="choice" id="rock">Rock</button>
             <button class="choice" id="paper">Paper</button>
@@ -29,12 +35,17 @@
             <button class="choice" id="lizard">Lizard</button>
             <button class="choice" id="spock">Spock</button>
         </div>
+
+        <!--section to display game result-->
         <div class="result">
             <p id="result-message">Make your choice!</p>
         </div>
+
+        <!--Button to reset the game-->
         <button id="reset">Reset Game</button>
     </div>
 
+    <!--Link to external JavaScript file-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
