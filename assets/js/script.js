@@ -47,6 +47,10 @@ document.querySelectorAll('.choice').forEach(button => {
 // Add event listener to reset button to reset the game
 document.getElementById('reset').addEventListener('click', resetGame);
 
+/**
+ * function to start the game
+ * hide the welcome screen and display the game container
+ */
 function startGame() {
     document.querySelector('.welcome-container').style.display = 'none';
     document.querySelector('.game-container').style.display = 'block';
