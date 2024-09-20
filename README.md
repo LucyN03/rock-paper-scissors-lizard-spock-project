@@ -11,6 +11,11 @@ The game has several key features aimed at providing an enjoyable user experienc
 
 ### Existing Features
 
+- **Welcome Section and Game Rules**
+    - The game starts with a friendly welcome message introducing players to the concept and mechanics of the game. Below the welcome message, the game rules are clearly explained to help new players understand how each choice interacts with the others. 
+    
+    ![Welcome and rules](assets/readme-images/welcome_rules.JPG)
+
 - **Game Interface**
     - The game interface consists of interactive buttons that allow players to select from five choices: Rock, Paper, Scissors, Lizard, and Spock. The choices are visually distinct and easy to click, making it accessible for desktop and mobile users.
     - After a choice is made, the game compares the player's selection with a randomly generated from the computer and displays the results.
@@ -27,6 +32,9 @@ The game has several key features aimed at providing an enjoyable user experienc
     - The scores reset after a set number of rounds, allowing for short and repeatable game sessions.
 
     ![Score Tracking](assets/readme-images/score_tracking.JPG)
+
+- **Reset Function**
+    - A reset button allows players to restart the game and reset the score counters back to zero without needing to refresh the page.
 
 ## Testing
 
